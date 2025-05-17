@@ -26,7 +26,7 @@ public class CookiesTest {
 		.get("https://www.google.com/")
 		
 		.then()
-		.cookie("AEC", "AVcja2deFpwDjgk4ZppRKQwr_X79NDIeBIm42FPvnc1I85R9GSj-79jXoEQ")
+		//.cookie("AEC", "AVcja2deFpwDjgk4ZppRKQwr_X79NDIeBIm42FPvnc1I85R9GSj-79jXoEQ")
 		.log().all();
 	}
 @Test
