@@ -5,7 +5,8 @@
     <classes>
       <class name="AllMethods.GetMethod">
         <methods>
-          <include name="Test01"/>
+          <include name="CreateUser"/>
+          <include name="DeleteUser"/>
         </methods>
       </class> <!-- AllMethods.GetMethod -->
     </classes>
