@@ -1,8 +1,6 @@
 package AllMethods;
 
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
-
 import java.util.Map;
 
 import org.testng.annotations.Test;

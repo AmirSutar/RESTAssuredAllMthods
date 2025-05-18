@@ -1,17 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-17T11:48:57 IST" name="Default suite" finished-at="2025-05-17T11:49:00 IST" duration-ms="2536">
+  <suite started-at="2025-05-18T12:32:00 IST" name="Suite" finished-at="2025-05-18T12:32:03 IST" duration-ms="2887">
     <groups>
     </groups>
-    <test started-at="2025-05-17T11:48:57 IST" name="Default test" finished-at="2025-05-17T11:49:00 IST" duration-ms="2536">
-      <class name="AllMethods.HeadersTest">
-        <test-method signature="PrintAllHeder()[pri:0, instance:AllMethods.HeadersTest@77c2494c]" started-at="2025-05-17T11:48:57 IST" name="PrintAllHeder" finished-at="2025-05-17T11:49:00 IST" duration-ms="2496" status="PASS">
+    <test started-at="2025-05-18T12:32:00 IST" name="Test" finished-at="2025-05-18T12:32:03 IST" duration-ms="2887">
+      <class name="chain.DELETE">
+        <test-method signature="DeleteReq(org.testng.ITestContext)[pri:0, instance:chain.DELETE@198b6731]" started-at="2025-05-18T12:32:03 IST" name="DeleteReq" finished-at="2025-05-18T12:32:03 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37654521]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PrintAllHeder -->
-      </class> <!-- AllMethods.HeadersTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- DeleteReq -->
+      </class> <!-- chain.DELETE -->
+      <class name="chain.GET">
+        <test-method signature="GETReq(org.testng.ITestContext)[pri:0, instance:chain.GET@489115ef]" started-at="2025-05-18T12:32:02 IST" name="GETReq" finished-at="2025-05-18T12:32:02 IST" duration-ms="157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37654521]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GETReq -->
+      </class> <!-- chain.GET -->
+      <class name="chain.POST">
+        <test-method signature="POSTReq(org.testng.ITestContext)[pri:0, instance:chain.POST@1fa121e2]" started-at="2025-05-18T12:32:00 IST" name="POSTReq" finished-at="2025-05-18T12:32:02 IST" duration-ms="2297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37654521]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POSTReq -->
+      </class> <!-- chain.POST -->
+      <class name="chain.PUT">
+        <test-method signature="PUTReq(org.testng.ITestContext)[pri:0, instance:chain.PUT@3857f613]" started-at="2025-05-18T12:32:02 IST" name="PUTReq" finished-at="2025-05-18T12:32:03 IST" duration-ms="350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@37654521]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PUTReq -->
+      </class> <!-- chain.PUT -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

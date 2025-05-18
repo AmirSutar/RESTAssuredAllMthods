@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="AllMethods.CookiesTest">
+      <class name="chain.GET">
         <methods>
-          <include name="Cookies"/>
+          <include name="GETReq" invocation-numbers="0"/>
         </methods>
-      </class> <!-- AllMethods.CookiesTest -->
+      </class> <!-- chain.GET -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
